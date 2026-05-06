@@ -1,0 +1,28 @@
+{
+  "hourly_trends": [
+    {"hour": "06:00", "count": 12, "top_issue": "Pension payment delay"},
+    {"hour": "07:00", "count": 34, "top_issue": "Ration card Aadhaar linking"},
+    {"hour": "08:00", "count": 87, "top_issue": "Ration card Aadhaar linking"},
+    {"hour": "09:00", "count": 143, "top_issue": "BWSSB water supply complaint"},
+    {"hour": "10:00", "count": 198, "top_issue": "BWSSB water supply complaint"},
+    {"hour": "11:00", "count": 167, "top_issue": "Income certificate status"},
+    {"hour": "12:00", "count": 134, "top_issue": "Pension payment delay"}
+  ],
+  "top_issues_today": [
+    {"issue": "BWSSB water supply (Yelahanka outage)", "count": 341, "spike": true},
+    {"issue": "Ration card Aadhaar linking deadline", "count": 287, "spike": true},
+    {"issue": "Pension payment not received", "count": 198, "spike": false},
+    {"issue": "Caste certificate status", "count": 134, "spike": false},
+    {"issue": "BBMP garbage complaint", "count": 89, "spike": false}
+  ],
+  "sentiment_summary": {
+    "distress": 0.18,
+    "anger": 0.22,
+    "confusion": 0.31,
+    "urgency": 0.15,
+    "calm": 0.14
+  },
+  "escalation_rate": 0.12,
+  "avg_handle_time_seconds": 187,
+  "last_updated": "2026-04-24T10:30:00Z"
+}

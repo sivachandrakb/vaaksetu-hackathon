@@ -1,0 +1,76 @@
+{
+  "services": [
+    {
+      "id": "SS001",
+      "name": "Ration Card Application",
+      "name_kn": "ರೇಷನ್ ಕಾರ್ಡ್ ಅರ್ಜಿ",
+      "department": "Food & Civil Supplies",
+      "status": "active",
+      "avg_processing_days": 21,
+      "current_queue": 1842,
+      "common_issues": ["document_upload", "status_check", "correction"],
+      "keywords": ["ration", "ration card", "rashan", "ration kaardi", "rashan card"]
+    },
+    {
+      "id": "SS002",
+      "name": "Income Certificate",
+      "name_kn": "ಆದಾಯ ಪ್ರಮಾಣಪತ್ರ",
+      "department": "Revenue",
+      "status": "active",
+      "avg_processing_days": 7,
+      "current_queue": 934,
+      "common_issues": ["document_upload", "officer_approval_pending"],
+      "keywords": ["income certificate", "aadaya", "income", "certificate"]
+    },
+    {
+      "id": "SS003",
+      "name": "Caste Certificate",
+      "name_kn": "ಜಾತಿ ಪ್ರಮಾಣಪತ್ರ",
+      "department": "Revenue",
+      "status": "active",
+      "avg_processing_days": 15,
+      "current_queue": 2103,
+      "common_issues": ["verification_pending", "document_mismatch"],
+      "keywords": ["caste certificate", "jathi", "sc st", "obc"]
+    },
+    {
+      "id": "SS004",
+      "name": "Domicile Certificate",
+      "name_kn": "ವಾಸಸ್ಥಾನ ಪ್ರಮಾಣಪತ್ರ",
+      "department": "Revenue",
+      "status": "active",
+      "avg_processing_days": 10,
+      "current_queue": 567,
+      "common_issues": ["address_proof"],
+      "keywords": ["domicile", "residence", "vaasa", "vasati"]
+    },
+    {
+      "id": "SS005",
+      "name": "Birth Certificate",
+      "name_kn": "ಜನನ ಪ್ರಮಾಣಪತ್ರ",
+      "department": "Municipal Administration",
+      "status": "active",
+      "avg_processing_days": 5,
+      "current_queue": 421,
+      "common_issues": ["hospital_record_missing"],
+      "keywords": ["birth certificate", "janana", "born", "baby"]
+    },
+    {
+      "id": "SS006",
+      "name": "Pension Application (Sandhya Suraksha)",
+      "name_kn": "ಸಂಧ್ಯಾ ಸುರಕ್ಷಾ ಪಿಂಚಣಿ",
+      "department": "Social Welfare",
+      "status": "active",
+      "avg_processing_days": 30,
+      "current_queue": 3241,
+      "common_issues": ["age_proof", "bank_account", "payment_delay"],
+      "keywords": ["pension", "sandhya suraksha", "old age", "hireya", "pinchani"]
+    }
+  ],
+  "trending_issues": [
+    {"issue": "Ration card linking with Aadhaar", "count": 234, "last_hour": true},
+    {"issue": "Pension payment not received this month", "count": 187, "last_hour": true},
+    {"issue": "BBMP property tax portal down", "count": 156, "last_hour": false}
+  ],
+  "last_updated": "2026-04-24T10:30:00Z"
+}

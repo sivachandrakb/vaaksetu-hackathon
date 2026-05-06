@@ -1,0 +1,26 @@
+{
+  "sample_records": [
+    {
+      "survey_number": "123/4A",
+      "village": "Kengeri",
+      "taluk": "Bangalore South",
+      "district": "Bengaluru Urban",
+      "owner": "REDACTED",
+      "area_acres": 0.5,
+      "land_type": "residential",
+      "mutation_pending": false
+    },
+    {
+      "survey_number": "456/2B",
+      "village": "Dharwad",
+      "taluk": "Dharwad",
+      "district": "Dharwad",
+      "owner": "REDACTED",
+      "area_acres": 2.3,
+      "land_type": "agricultural",
+      "mutation_pending": true
+    }
+  ],
+  "common_issues": ["mutation_pending", "encumbrance_certificate", "pahani_copy", "boundary_dispute"],
+  "last_updated": "2026-04-24T00:00:00Z"
+}

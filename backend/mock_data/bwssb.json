@@ -1,0 +1,25 @@
+{
+  "outages": [
+    {
+      "id": "BWSSB-OUT-2026-0089",
+      "area": "Yelahanka",
+      "type": "scheduled_maintenance",
+      "start": "2026-04-24T06:00:00Z",
+      "end": "2026-04-24T18:00:00Z",
+      "status": "active",
+      "affected_households": 12000
+    },
+    {
+      "id": "BWSSB-OUT-2026-0090",
+      "area": "HSR Layout",
+      "type": "pipe_burst",
+      "start": "2026-04-24T08:30:00Z",
+      "end": "2026-04-24T20:00:00Z",
+      "status": "active",
+      "affected_households": 3500
+    }
+  ],
+  "complaint_categories": ["no_water", "low_pressure", "contamination", "billing", "new_connection"],
+  "helpline": "1916",
+  "last_updated": "2026-04-24T10:00:00Z"
+}
